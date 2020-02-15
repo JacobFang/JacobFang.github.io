@@ -4,9 +4,9 @@
 
 # Site
 title: 夕末丨残阳
-subtitle: 感谢关注本博客
+subtitle: 夕末丨残阳
 description: 夕末丨残阳的个人博客，涉及嵌入式Linux、C语言、RTOS、MCU、高效软件
-keywords:
+keywords: 嵌入式Linux、C语言、RTOS、MCU、高效软件
 author: JacobFang
 language: zh-CN
 timezone:
@@ -125,3 +125,16 @@ backup:
   repository: 
     github: git@github.com:JacobFang/JacobFang.github.io.git,backup
 
+permalink_pinyin:
+  enable: true
+  separator: '-' # default: '-'
+  
+feed: 
+  type: atom 
+  path: atom.xml 
+  limit: 20 
+  hub: 
+  content: 
+  content_limit: 140 
+  content_limit_delim: ' ' 
+  order_by: -date
